@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <meta charset="UTF-8" />
+    <title>Test task</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <ul class="navbar__list">
+            <li class="navbar-list__item">
+              <img src="assets/images/icons/home.svg" alt="Home" />
+              <a class="navbar-list__link" href="#">Головна</a>
+            </li>
+            <li class="navbar-list__item">
+              <img src="assets/images/icons/stats.svg" alt="Stats" />
+              <a class="navbar-list__link" href="#">Сторінка1</a>
+            </li>
+            <li class="navbar-list__item">
+              <img src="assets/images/icons/layers.svg" alt="Layers" />
+              <a class="navbar-list__link" href="#">Сторінка2</a>
+            </li>
+            <li class="navbar-list__item">
+              <img src="assets/images/icons/check.svg" alt="Check" />
+              <a class="navbar-list__link" href="#">Сторінка3</a>
+            </li>
+          </ul>
+          <div class="navbar__settings navbar-list__item">
+            <img src="assets/images/icons/settings.svg" alt="Settings" />
+            <a class="navbar-list__link" href="#">Налаштування</a>
+          </div>
+        </div>
+      </nav>
+      <div class="main-container">
+        <h1 class="main-title">Start</h1>
+        <div class="main-title__line"></div>
+        <div class="delivery-progress">
+          <div class="delivery-progress__items">
+            <div class="delivery-progress__item item-delivery-progress">
+              <div
+                class="item-delivery-progress__image item-delivery-progress__image--selected"
+              ></div>
+              <div class="item-delivery-progress__title">Стан1</div>
+            </div>
+            <hr class="selected" />
+            <div class="delivery-progress__item item-delivery-progress">
+              <div
+                class="item-delivery-progress__image item-delivery-progress__image--selected"
+              ></div>
+              <div class="item-delivery-progress__title">Стан2</div>
+            </div>
+            <hr class="selected" />
+            <div class="delivery-progress__item item-delivery-progress">
+              <div class="item-delivery-progress__image"></div>
+              <div class="item-delivery-progress__title">Стан3</div>
+            </div>
+            <hr />
+            <div class="delivery-progress__item item-delivery-progress">
+              <div class="item-delivery-progress__image"></div>
+              <div class="item-delivery-progress__title">Стан4</div>
+            </div>
+            <hr />
+            <div class="delivery-progress__item item-delivery-progress">
+              <div class="item-delivery-progress__image"></div>
+              <div class="item-delivery-progress__title">Стан5</div>
+            </div>
+          </div>
+        </div>
+        <div class="info-truck">
+          <div class="info-truck__information information-info-truck">
+            <h2 class="information-info-truck__title">Information</h2>
+            <div class="information-info-truck__body">
+              <div class="information-info-truck__text">
+                <p>Info Number:</p>
+                <p>903049</p>
+              </div>
+              <div class="information-info-truck__text">
+                <p>Pick up Place:</p>
+                <p>Sweden</p>
+              </div>
+            </div>
+          </div>
+          <div class="info-truck__delivery delivery-info-truck">
+            <div class="delivery-info-truck__body">
+              <p class="delivery-info-truck__title">We are here</p>
+              <p class="delivery-info-truck__subtitle">Long time to go</p>
+            </div>
+            <div class="delivery-info-truck__image">
+              <img src="assets/images/Truck.png" alt="Truck" />
+            </div>
+          </div>
+        </div>
+        <div class="baggage">
+          <div class="baggage__title">Перезамовте Багаж</div>
+          <div class="baggage__input">
+            <span>Дропдаун</span>
+            <div class="baggage__input-select select">
+              <div class="select__header">
+                <span class="select__current">Select option</span>
+                <div class="select__icon">&bigvee;</div>
+              </div>
+              <div class="select__body">
+                <div class="select__item">Select option</div>
+                <div class="select__item">qwerty1</div>
+                <div class="select__item">qwerty2</div>
+                <div class="select__item">qwerty3</div>
+              </div>
+            </div>
+          </div>
+          <div class="baggage__input">
+            <span>Дропдаун</span>
+            <div class="baggage__input-select select">
+              <div class="select__header">
+                <span class="select__current">Select option</span>
+                <div class="select__icon">&bigvee;</div>
+              </div>
+              <div class="select__body">
+                <div class="select__item">Select option</div>
+                <div class="select__item">qwerty11</div>
+                <div class="select__item">qwerty22</div>
+                <div class="select__item">qwerty33</div>
+              </div>
+            </div>
+          </div>
+          <button class="baggage__button" type="submit">Done</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
